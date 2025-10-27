@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Life — Engineering College</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="sticky-top bg-white shadow-sm">
+      <nav class="navbar navbar-expand-lg navbar-light container" aria-label="Main navigation">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="assets/images/logo.webp" alt="Engineering College logo" width="40" height="40" class="me-2">
+          <span class="fs-5 fw-600">Engineering College</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+            <li class="nav-item"><a class="nav-link active" href="student-life.html">Student Life</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-outline-primary ms-2" href="registration.html">Apply</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-4">
+      <h1>Student Life & News</h1>
+      <div class="mb-3">
+        <div class="btn-group" role="group" aria-label="Filter content" id="filterButtons">
+          <button class="btn btn-outline-secondary active" data-filter="all">All</button>
+          <button class="btn btn-outline-secondary" data-filter="events">Events</button>
+          <button class="btn btn-outline-secondary" data-filter="clubs">Clubs</button>
+          <button class="btn btn-outline-secondary" data-filter="announcements">Announcements</button>
+        </div>
+      </div>
+
+      <section class="row g-3" id="cardsContainer">
+        <article class="col-12 col-md-6 col-lg-4 filter-item events">
+          <div class="card h-100">
+            <img src="C:\Users\HP\Desktop\Web-programming\assets\images\Без названия (2).jpeg" class="card-img-top" alt="Robotics workshop" />
+            <div class="card-body">
+              <h3 class="h6">Robotics Workshop</h3>
+              <p class="mb-0 text-muted">Hands-on workshop hosted by the Robotics Club.</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 filter-item clubs">
+          <div class="card h-100">
+            <img src="assets/images/hero-.webp" class="card-img-top" alt="Debate club meeting" />
+            <div class="card-body">
+              <h3 class="h6">Debate Club</h3>
+              <p class="mb-0 text-muted">Weekly meetings to build communication skills.</p>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-lg-4 filter-item announcements">
+          <div class="card h-100">
+            <img src="C:\Users\HP\Desktop\Web-programming\assets\images\Без названия (3).jpeg" class="card-img-top" alt="New library hours" />
+            <div class="card-body">
+              <h3 class="h6">Library Extended Hours</h3>
+              <p class="mb-0 text-muted">Library now open until midnight during exam weeks.</p>
+            </div>
+          </div>
+        </article>
+        <!-- Repeat sample items to show filter effect -->
+        <article class="col-12 col-md-6 col-lg-4 filter-item events">
+          <div class="card h-100">
+            <img src="C:\Users\HP\Desktop\Web-programming\assets\images\Без названия (4).jpeg" class="card-img-top" alt="Industry fair" />
+            <div class="card-body">
+              <h3 class="h6">Industry Fair</h3>
+              <p class="mb-0 text-muted">Meet recruiters and explore internships.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="mt-5 bg-light py-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div>
+          <strong>Engineering College</strong>
+          <div class="text-muted">123 College Road, City, Country</div>
+        </div>
+        <nav>
+          <a href="privacy.html" class="text-muted me-3">Privacy</a>
+          <a href="contact.html" class="text-muted">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
