@@ -1,12 +1,13 @@
-# Engineering College — Static Brochure Website
+# Engineering College Website
 
-This repository contains a complete, mobile-first, accessible static brochure-style website for an educational institution named "Engineering College." Built with HTML5, CSS3, Bootstrap 5, and vanilla JavaScript (ES6+).
+A modern, accessible, responsive website for Engineering College built with HTML5, CSS3, Bootstrap 5, and vanilla JavaScript.
 
-## Project overview
+## Features
 
-- Responsive, semantic, multi-page static website.
-- Mobile-first design, consistent branding, and WCAG-conscious accessibility.
-- All interactivity is client-side (no server required).
+- 📱 Fully responsive, mobile-first design
+- ♿ WCAG-conscious accessibility features
+- 🔒 Client-side form validation with age verification and format checks
+- 🎨 Consistent branding and typography
 
 ## File structure
 
@@ -32,16 +33,37 @@ This repository contains a complete, mobile-first, accessible static brochure-st
 - Contact: address, phone, email, contact form with anti-spam
 - Registration: full application form with inline validation
 
-## Implemented features
+## Technical Details
 
-- Fixed, sticky Bootstrap 5 navbar across pages (collapses on small screens).
-- Keyboard accessible elements with visible focus outlines.
-- All images include meaningful `alt` attributes (replace placeholders with real images).
-- Registration and Contact forms include client-side validation and simulated submission messages.
-- Password visibility toggle and aria attributes for accessibility.
-- FAQ accordion supports keyboard toggling and uses Bootstrap's accessible accordion markup.
-- Student Life page includes filter buttons that toggle content visibility.
-- Progressive enhancement: page is usable with JS disabled (forms will not submit but markup remains readable).
+### Forms & Validation
+
+- Registration form includes:
+  - Age verification (must be 15+ years old)
+  - Email format validation
+  - Phone number validation (supports +1, +44, +966)
+  - Password strength requirements
+  - Terms acceptance
+
+- Contact form includes:
+  - Email format validation
+  - Anti-spam check
+  - Required field validation
+
+### Accessibility Features
+
+- Semantic HTML structure
+- ARIA attributes for dynamic content
+- Keyboard navigation support
+- Visible focus indicators
+- Screen reader considerations
+
+### JavaScript Features
+
+- Form validation with inline feedback
+- FAQ accordion with keyboard support
+- Content filtering system
+- Password visibility toggle
+- Anti-spam protection
 
 ## Accessibility notes
 
